@@ -1,0 +1,193 @@
+# homepage
+homepage:
+  head:
+    title: "Home"
+# showcase
+showcase:
+  enable: true
+  title: "Sports and Events"
+  subtitle: "The pulse of Australia"
+  description: "From world-class cricket series to thrilling motorsports, and cultural festivals - explore the sports and festivals that define Australia’s cultural zeitgest."
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Learn More"
+    URL: "#about"
+
+  # about
+about:
+  enable: true
+  title: "When you think Australia..."
+  content: "<p class='lead'>
+    The first thing that probably comes to mind is Cricket, specifically, the legendary Ashes series. For many Australians, cricket is not just a sport—it's a deep-seated tradition, a symbol of national pride, and a fixture of the Australian summer.
+    </p>"
+  image:
+    x: "img/who-am-i/user-picture.png"
+
+# education
+education:
+  enable: true
+  title: "Australia's Hottest Events (and Sports)"
+  items:
+    - university: "Festival of Sails"
+      year: "25 Jan 2025 - 26 Jan 2025"
+      degree: "Geelong, VIC"
+
+    - university: "Chinchilla Melon Festival"
+      year: "12 Feb 2025 - 15 Feb 2025"
+      degree: "Chinchilla, QLD"
+
+    - university: "Tatts Finke Desert Race"
+      year: "6 Jun 2025 - 9 Jun 2025"
+      degree: "Alice Springs, NT"
+
+    - university: "Great Barrier Reef Festival"
+      year: "1 Aug 2025 - 3 Aug 2025"
+      degree: "Airlie Beach, QLD"
+
+    - university: "Garma Festival"
+      year: "1 Aug 2025 - 4 Aug 2025"
+      degree: "Nhulunbuy, NT"
+
+    - university: "The Ashes: Boxing Day Test Series"
+      year: "26 Dec 2025"
+      degree: "Melbourne, VIC"
+
+# experience
+experience:
+  enable: false
+  title: "Experience"
+  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/company/radity/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Sr. Front-End Developer"
+      company: "Radity"
+      duration: "Feb 2011 - Sep 2019"
+
+    - title: "Sr. Front-End Developer"
+      company: "Textic"
+      duration: "Apr 2010 - Jan 2011"
+
+    - title: "Jr. Front-End Developer"
+      company: "Cyberse"
+      duration: "Jun 2009 - Mar 2010"
+
+# Client & Work
+client_and_work:
+  title: "Don't Miss Out..."
+  enable: true
+
+  works:
+    - title: "Festival of Sails"
+      description: "The Festival of Sails is Geelong’s ultimate summer celebration, held every January long weekend on the stunning waterfront. As the largest sailing regatta in the Southern Hemisphere, it’s not just about racing—it’s where world-class sailing meets a three-day festival packed with live music, gourmet food, and unforgettable entertainment. From family-friendly activities under the sun to epic performances and fireworks lighting up the night sky, the event offers something for everyone."
+      image:
+        x: "img/works/festivalofsails.jpg"
+        _2x: "img/works/festivalofsails.jpg"
+      is_even: true
+
+    - title: "Chinchilla Melon Fest"
+      description: "The Chinchilla Melon Festival is held every two years in February. Known as the ‘Melon Capital’ of Australia, Chinchilla produces a quarter of Australia’s melons and celebrates the fact biennially in February. Events include melon skiing, melon tossing, melon bungee and more! It's fun for the whole family."
+      image:
+        x: "img/works/chinchilla_melon_fest.jpg"
+        _2x: "img/works/chinchilla_melon_fest.jpg"
+      is_even: false
+
+    - title: "Tatts Finke Desert Race"
+      description: "The Tatts Finke Desert Race is an off road, multi terrain two-day race for bikes, cars & buggies through desert country from Alice Springs to the small Aputula (Finke) community. The race is held each year on the King’s Birthday long weekend in June. “Finke” as it is commonly known, is one of the biggest annual sporting events in the Northern Territory and has the reputation of being one of the most difficult offroad courses in one of the most remote places in the world. Finke is unique and the most fun you can have with a helmet on!"
+      image:
+        x: "img/works/tatts_finke.jpg"
+        _2x: "img/works/tatts_finke.jpg"
+      is_even: true
+
+    - title: "The Great Barrier Reef Festival"
+      description: "Great Barrier Reef Festival is an annual celebration of the Great Barrier Reef and showcase of the Whitsunday lifestyle and community of Airlie Beach – the heart of the reef. The region's favourite festival will take over the vibrant tourist hub of Airlie Beach, the gateway to the Whitsunday islands, over the first weekend of August."
+      image:
+        x: "img/works/barrier_reef_fest.jpg"
+        _2x: "img/works/barrier_reef_fest.jpg"
+      is_even: true
+
+    - title: "Garma Festival"
+      description: "The Garma Festival is Australia’s largest Indigenous gathering, a 4-day celebration of Yolngu life and culture held in remote northeast Arnhem Land."
+      image:
+        x: "img/works/garma_festival.jpg"
+        _2x: "img/works/garma_festival.jpg"
+      is_even: false
+
+    - title: "The Ashes"
+      description: "The Ashes—the most iconic cricket rivalry between Australia and England—is the heart and soul of this sport in Australia. Played over a series of Test matches, the Ashes series is more than just competition; it’s about legacy, national identity, and sporting glory. When the two teams take the field, the nation watches, united in anticipation, as one of the most fiercely contested and historical rivalries in sports unfolds."
+      image:
+        x: "img/works/the_ashes.jpg"
+        _2x: "img/works/the_ashes.jpg"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: false
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+41 (44) 505 10 99"
+  email:
+    title: "Email"
+    email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+  address:
+    title: "Address"
+    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
